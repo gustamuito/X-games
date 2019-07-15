@@ -1,0 +1,235 @@
+#menu ul {
+padding:0px;
+font-family: Verdana;
+background-color:#696969;
+list-style:none;
+margin-bottom:40px;
+word-spacing:129px;
+border-style:solid;
+border-color:white;
+}
+#menu ul li {
+display: inline-block;
+}
+#menu ul li a {
+padding: 5px 120px 10px 10px;
+display: inline-block;
+color: #FFFFFF;
+font-size:30px;
+text-decoration:none;
+}
+#menu ul li a:hover {
+background-color:#FF0000;
+color: #000000;
+}
+#principal{
+	border-style:solid;
+	border-color:white;
+padding:40px;
+width:900px;
+margin:auto;
+background-color:#696969;
+}
+#principal p{
+text-align:justify;
+font-family:Arial Black;
+font-size:20px;
+color:white;
+text-align: center;
+}
+#principal img{
+	padding-top:30px;
+    height:500px;
+    width:800px;
+    padding-left:40px;
+}
+body,
+.php{
+	color:white;
+	font-family:Arial Black;
+	text-transform:capitalize;
+	word-spacing:6px;
+	text-indent:18px;
+	font-style:Normal;
+	font-size:20px;
+}
+#echo{
+	color:white;
+	font-family:Arial Black;
+	word-spacing:6px;
+	text-indent:18px;
+	font-style:Normal;
+	font-size:20px;
+}
+.menu,
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #000;
+}
+.sub-menu {
+    background: #444;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+	font-family: sans-serif;
+    font-size: 14px;
+    text-transform:none;
+    font-weight:Normal;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: #444;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+	}
+	body{
+		background-image:url(chama.jpg);
+	}
+	input[name='quant']{
+  color: white;
+  background-color:#000;
+  border-radius:20px;
+  padding:5px;
+  margin-right:10px;
+  border-style:solid;
+  border-color:white;
+  text-align: center;
+  
+}
+input[type='submit']{
+	border-radius:50%;
+	padding:10px;
+	border-style:solid;
+	border-color:white;
+	background-color:#ffffff;
+	font-family:Arial Black;
+}
+input[value='Sim']{
+	text-align:center;
+	border-radius:50%;
+	padding:10px;
+	border-style:solid;
+	border-color:white;
+	background-color:#ffffff;
+	font-family:Arial Black;
+}	
+input[type='submit']:hover {
+	background-color:#FF0000;
+    color: #ffffff;
+	position: relative;
+	border-radius:50%;	
+	padding:10px;
+	border-style:solid;
+	border-color:white;
+	font-family:Arial Black;
+	
+}
+
+P{
+	color:white;
+	font-family:Time new roman;
+	text-transform:capitalize;
+	word-spacing:6px;
+	text-indent:18px;
+	font-style:Normal;
+	font-size:small;
+	
+}
+H1{
+	color:gold;
+	text-align:center;
+	text-indent:14px;
+	word-spacing:6px;
+}
+DT{
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+H2{
+	text-align:center;
+	color:gold;
+	font-family:Verdana;
+	font-size: 1cm;
+}
+#menu ul {
+padding:0px;
+font-family: Verdana;
+background-color:#696969;
+list-style:none;
+margin-bottom:40px;
+word-spacing:129px;
+border-style:solid;
+border-color:white;
+}
+#menu ul li {
+display: inline-block;
+}
+#menu ul li {
+padding: 8px 2px 10px 10px;
+display: inline-block;
+color: #FFFFFF;
+font-size:30px;
+text-decoration:none;
+}
+#menu ul li a:hover {
+background-color:#FF0000;
+color: #000000;
+}
+#principal{
+	border-style:solid;
+	border-color:white;
+padding:40px;
+width:900px;
+margin:auto;
+background-color:#696969;
+}
+#principal p{
+text-align:justify;
+font-family:Arial Black;
+font-size:20px;
+color:white;
+text-align: center;
+}
+#principal img{
+	padding-top:30px;
+height:50px;
+width:80px;
+padding-left:800px;
+}
